@@ -1,4 +1,4 @@
-module CreatePage where
+module ParseData where
 
 import Math (add, multiply)
 
@@ -8,4 +8,4 @@ main = do
     let productResult = multiply 5 3
     putStrLn ("Sum: " ++ show sumResult)
     putStrLn ("Product: " ++ show productResult)
-    putStrLn ("Creating page...")
+    putStrLn ("Parsing data...")
